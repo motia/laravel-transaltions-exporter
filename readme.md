@@ -13,7 +13,7 @@ php artisan vendor:publish --provider="Motia\TransExport\TransExportProvider"
 ```
 
 - Setup and configure [vsch/laravel-translation-manager](https://github.com/vsch/laravel-translation-manager)
-- (optional) if you want to use `yaml` format run `composer install "symfony/yaml" "^4.0"`
+- (optional) if you want to use `yaml` format run `composer install symfony/yaml ^4.0`
 
 ## Usage
 * Import translations from file to database
@@ -23,7 +23,7 @@ php artisan trans:import
 
 * Export translations from database to file
 ```
-php artisan trans:import
+php artisan trans:export
 ```
 
 * Missing translations
